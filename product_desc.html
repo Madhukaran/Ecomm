@@ -10,22 +10,20 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	
     <title>Product Decription | Ecomm</title>
-	<link rel="shortcut icon" href="ecom_icon.png">
+	<link rel="shortcut icon" href="img/ecom_icon.png">
 	<style>
-	.main_product{height:500px;width:100%; overflow:hidden; }
-	.main_picture{float:left; height:100%; width:40%;}
-	.product_details{float:left; width:60%; height:100%;}
+	.main_product{height:auto;width:100%; overflow:hidden; }
+	.main_picture{float:left; height:100%; width:50%;}
+	.product_details{float:left; width:50%; height:100%;}
 	.icons{font-size:80px; float:left; padding:10px;}
 	.fit{height:100%;width:100%}
-	.footer{background-color:black;height:100px;clear: both;
-    position: relative;
-    margin-top: -200px;}
+	.footer{background-color:black;height:100px;clear: both;position:relative; bottom:0px; width:100%;}
 	</style>
   </head>
   <body>
    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#" style="font-size:4vw;">E-Commerce</a>
+  <a class="navbar-brand" href="index.html" style="font-size:4vw;">E-Commerce</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -43,10 +41,11 @@
           Products
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Men</a>
-          <a class="dropdown-item" href="#">Women</a>
+          <a class="dropdown-item" href="list.html">Men</a>
+          <a class="dropdown-item" href="list.html">Women</a>
+          <a class="dropdown-item" href="list.html">Mobiles</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Kids</a>
+          <a class="dropdown-item" href="list.html">Kids</a>
         </div>
       </li>
       <li class="nav-item">
@@ -56,6 +55,8 @@
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	  <a style="margin:4px;" class="btn btn-light" type="submit" href="login.html">Login</a>
+      <a style="margin:2px;" class="btn btn-light" type="submit">SignUp</a>
     </form>
   </div>
 </nav>
@@ -72,13 +73,13 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide main_picture" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img class="fit" src="lap1.webp" class="d-block w-100" alt="...">
+        <img class="fit" src="img/lap1.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item fit">
-      <img class="fit" src="lap2.webp" class="d-block w-100" alt="...">
+      <img class="fit" src="img/lap2.webp" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item fit">
-      <img class="fit" src="lap1.webp" class="d-block w-100" alt="...">
+      <img class="fit" src="img/lap1.webp" class="d-block w-100" alt="...">
     </div>
   </div>
 </div>
@@ -98,9 +99,13 @@
 <br>
 <b> Price.:<span style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;&#x20B9 72,990.00</span>
 <br> You Save:<span style="color:red;">&nbsp;&#x20B9 7000(9%)</span> </b></p>
-<p style="font-size:12px;padding:10px;"> This Product is Purely from ASUS Trusted Product, For Any furter Assistance or Help You can call ASUS Representative.
+<div style="width:100%;">
+  <a style="width:50%;float:left;margin:5px;" class="btn btn-lg btn-primary btn-block" type="submit">Buy Now</a>
+  <a style="width:50%;float:left;margin:5px;" class="btn btn-lg btn-secondary btn-block" type="submit">Add TO cart</a>
+</div>
+<p style="clear:both;font-size:12px;padding:10px;"> This Product is Purely from ASUS Trusted Product, For Any furter Assistance or Help You can call ASUS Representative.
 The Product came to Ecomm Only for the Distribution Purpose.</p>
-<div class="icons">
+<div class="icons text-center">
 <i class="fa fa-truck "></i>
 <i class="fa fa-cart-arrow-down"></i>
 <i class="fa fa-history"></i>
@@ -124,13 +129,13 @@ The Product came to Ecomm Only for the Distribution Purpose.</p>
 <hr>
 <ul style="list-style:none;">
 		<li>
-		<img style="float:left;padding:10px;" src="1.jpg" alt="dsv">
+		<img style="float:left;padding:10px;" src="img/1.webp" alt="dsv">
 		<p><br><br><b>Tough Beyond Standard</b><br>
 		The durable and lightweight FX504 is the first laptop in the TUF Gaming family.
 		A powerful, portable, and enduring all-rounder, FX504 is able to play the latest games and multitask with ease, while at the same time providing unmatched toughness and durability to give you immersive gaming experiences for years to come.</p>
 		</li>
 		<li>
-		<img style="float:right;padding:10px;" src="2.jpg" alt="dsv">
+		<img style="float:right;padding:10px;" src="img/2.webp" alt="dsv">
 		<p><br><br><br><br><b>Tough Beyond Standard</b><br>
 		The durable and lightweight FX504 is the first laptop in the TUF Gaming family.
 		A powerful, portable, and enduring all-rounder, FX504 is able to play the latest games and multitask with ease, while at the same time providing unmatched toughness and durability to give you immersive gaming experiences for years to come.</p>
@@ -183,8 +188,8 @@ The Product came to Ecomm Only for the Distribution Purpose.</p>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <footer class="footer">
-	<center><b style="color:white;text-align:center;"><span style="font-size:1.5vw;"> &#169;</span> All Rights Reserved Madhukaran </b></center>
+  <footer class="footer text-center">
+	<b style="color:white;"><span style="font-size:1.5vw;"> &#169;</span> All Rights Reserved Madhukaran </b>
 </footer>
   </body>
 </html>

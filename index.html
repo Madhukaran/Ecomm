@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>E-Commerce Shop</title>
-	<link rel="shortcut icon" href="ecom_icon.png">
+	<link rel="shortcut icon" href="img/ecom_icon.png">
 	<style>
 	.heropic{height:300px; width:100%; background-color:#aaa;}
 	h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
@@ -41,7 +41,7 @@
 .product-grid .price{color:#333;font-size:17px;font-family:Montserrat,sans-serif;font-weight:700;letter-spacing:.6px;margin-bottom:8px;text-align:center;transition:all .3s}
 .product-grid .price span{color:#999;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display:inline-block}
 .product-grid .add-to-cart{color:#000;font-size:13px;font-weight:600}
-.footer{background-color:black;position:relative;bottom:1;height:100px;}
+.footer{background-color:black;position:relative;bottom:0px;height:100px;width:100%}
 @media only screen and (max-width:990px){.product-grid{margin-bottom:30px}
 .mobile_banner{height:200px; width:100%;}
 .navbar{width:100%}
@@ -51,7 +51,7 @@
   <body style="background-color:#ffcc99;">
   <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#" style="font-size:4vw;">E-Commerce</a>
+  <a class="navbar-brand" href="index.html" style="font-size:4vw;">E-Commerce</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -69,10 +69,11 @@
           Products
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Men</a>
-          <a class="dropdown-item" href="#">Women</a>
+          <a class="dropdown-item" href="list.html">Men</a>
+          <a class="dropdown-item" href="list.html">Women</a>
+          <a class="dropdown-item" href="list.html">Mobiles</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Kids</a>
+          <a class="dropdown-item" href="list.html">Kids</a>
         </div>
       </li>
       <li class="nav-item">
@@ -82,13 +83,15 @@
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	  <a style="margin:4px;" class="btn btn-light" type="submit" href="login.html">Login</a>
+      <a style="margin:2px;" class="btn btn-light" type="submit">SignUp</a>
     </form>
   </div>
 </nav>
 <!-- END navbar -->
 
 <!-- heropic -->
-<img class="mobile_banner" src="ecom-banner.webp" width="100%" height="400px" alt="banner">
+<img class="mobile_banner" src="img/ecom-banner.webp" width="100%" height="400px" alt="banner">
 <!-- End Heropic -->
 <br>
 	
@@ -100,8 +103,8 @@
 			<div class="product-grid">
                 <div class="product-image">
                     <a href="#">
-                        <img class="pic-1" src="lap1.webp">
-                        <img class="pic-2" src="lap2.webp">
+                        <img class="pic-1" src="img/lap1.webp">
+                        <img class="pic-2" src="img/lap2.webp">
                     </a>
                     <ul class="social">
                         <li><a href="product_Desc.html" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -132,8 +135,8 @@
             <div class="product-grid">
                 <div class="product-image">
                     <a href="#">
-                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-3.jpg">
-                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg">
+                        <img class="pic-1" src="img/lap1.webp">
+                        <img class="pic-2" src="img/lap2.webp">
                     </a>
                     <ul class="social">
                         <li><a href="product_Desc.html" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -163,8 +166,8 @@
             <div class="product-grid">
                 <div class="product-image">
                     <a href="#">
-                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-5.jpg">
-                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-6.jpg">
+                        <img class="pic-1" src="img/lap1.webp">
+                        <img class="pic-2" src="img/lap2.webp">
                     </a>
                     <ul class="social">
                         <li><a href="product_Desc.html" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -260,8 +263,8 @@
             <div class="product-grid">
                 <div class="product-image">
                     <a href="#">
-                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-3.jpg">
-                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg">
+                        <img class="pic-1" src="img/lap1.webp">
+                        <img class="pic-2" src="img/lap2.webp">
                     </a>
                     <ul class="social">
                         <li><a href="product_Desc.html" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
@@ -291,8 +294,8 @@
             <div class="product-grid">
                 <div class="product-image">
                     <a href="#">
-                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-5.jpg">
-                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-6.jpg">
+                        <img class="pic-1" src="img/lap1.webp">
+                        <img class="pic-2" src="img/lap2.webp">
                     </a>
                     <ul class="social">
                         <li><a href="product_Desc.html" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
